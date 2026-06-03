@@ -8,12 +8,12 @@ It combines:
 
 ## Repository contents
 
-- `/tmp/workspace/juanjo-rosh/ml_snake/main_Assignment1.py`: main autonomous/ML-focused script.
-- `/tmp/workspace/juanjo-rosh/ml_snake/Phase 3/agente.py`: keyboard/manual version (useful for data generation).
-- `/tmp/workspace/juanjo-rosh/ml_snake/Phase 3/wekaI.py`: Python wrapper to load Weka models and predict.
-- `/tmp/workspace/juanjo-rosh/ml_snake/data_train_keyboard.arff` and `/tmp/workspace/juanjo-rosh/ml_snake/data_test_keyboard.arff`: keyboard datasets.
-- `/tmp/workspace/juanjo-rosh/ml_snake/Phase 2`, `/tmp/workspace/juanjo-rosh/ml_snake/Phase 3`, `/tmp/workspace/juanjo-rosh/ml_snake/Phase 4`: project phases with ARFF files, experiment outputs, and trained `.model` files.
-- `/tmp/workspace/juanjo-rosh/ml_snake/Report-100499176-100499081.pdf`: project report.
+- `./main_Assignment1.py`: main autonomous/ML-focused script.
+- `./Phase 3/agente.py`: keyboard/manual version (useful for data generation).
+- `./Phase 3/wekaI.py`: Python wrapper to load Weka models and predict.
+- `./data_train_keyboard.arff` and `./data_test_keyboard.arff`: keyboard datasets.
+- `./Phase 2`, `./Phase 3`, `./Phase 4`: project phases with ARFF files, experiment outputs, and trained `.model` files.
+- `./Report-100499176-100499081.pdf`: project report.
 
 ## Requirements
 
@@ -26,7 +26,7 @@ It combines:
 
 ## Setup (recommended with virtual environment)
 
-From `/tmp/workspace/juanjo-rosh/ml_snake`:
+From the repository root:
 
 ```bash
 python -m venv .venv
@@ -44,7 +44,7 @@ pip install pygame javabridge "python-weka-wrapper==0.3.0"
 ### 1) Manual/keyboard mode (recommended first run)
 
 ```bash
-cd "/tmp/workspace/juanjo-rosh/ml_snake/Phase 3"
+cd "Phase 3"
 python agente.py
 ```
 
@@ -63,9 +63,9 @@ This mode appends gameplay data to `data_test.arff` in the same folder.
 A working command with current repository layout is:
 
 ```bash
-cd "/tmp/workspace/juanjo-rosh/ml_snake/Phase 3/Goodmove"
-PYTHONPATH="/tmp/workspace/juanjo-rosh/ml_snake:/tmp/workspace/juanjo-rosh/ml_snake/Phase 3" \
-python "/tmp/workspace/juanjo-rosh/ml_snake/main_Assignment1.py"
+cd "Phase 3/Goodmove"
+PYTHONPATH="../..:.." \
+python ../../main_Assignment1.py
 ```
 
 ## Project notes

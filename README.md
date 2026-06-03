@@ -9,6 +9,8 @@ It combines:
 ## Repository contents
 
 - `./main_Assignment1.py`: main autonomous/ML-focused script.
+- `./Assignment 2 - Phase 2` and `./Assignment 2 - Phase 3`: Assignment 2 implementation files (Q-learning Snake environment and training scripts).
+- `./Assignment2-100499081-100499176.pdf`: Assignment 2 report/documentation.
 - `./Phase 3/agente.py`: keyboard/manual version (useful for data generation).
 - `./Phase 3/wekaI.py`: Python wrapper to load Weka models and predict.
 - `./data_train_keyboard.arff` and `./data_test_keyboard.arff`: keyboard datasets.

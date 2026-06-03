@@ -1,0 +1,25 @@
+Tester:     weka.experiment.PairedTTester -G 3,4,5 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixHTML -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 0 -stddev-width 0 -sig-width 0 -count-width 0 -print-row-names -enum-col-names"
+Analysing:  Root_relative_squared_error
+Datasets:   2
+Resultsets: 4
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       4/11/24, 2:18 PM
+
+
+<table border="1" cellpadding="3" cellspacing="0">
+   <tr><td><b>Dataset</b></td><td align="center" colspan="1"><b>(1)</b></td><td align="center" colspan="2"><b>(2)</b></td><td align="center" colspan="2"><b>(3)</b></td><td align="center" colspan="2"><b>(4)</b></td></tr>
+   <tr><td>'snake_game-weka.filters.</td><td align="right">7.48</td><td align="right">8.42</td><td align="center">&nbsp;</td><td align="right">7.49</td><td align="center">&nbsp;</td><td align="right">7.44</td><td align="center">&nbsp;</td></tr>
+   <tr><td>'snake_game-weka.filters.</td><td align="right">4.93</td><td align="right">5.29</td><td align="center">&nbsp;</td><td align="right">4.97</td><td align="center">v</td><td align="right">4.95</td><td align="center">v</td></tr>
+   <tr><td>(v/ /*)</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="center">(0/2/0)</td><td align="right">&nbsp;</td><td align="center">(1/1/0)</td><td align="right">&nbsp;</td><td align="center">(1/1/0)</td></tr>
+</table>
+
+
+<table border="1" cellpadding="3" cellspacing="0">
+   <tr><td colspan="2"><b>Key</b></td></tr>
+   <tr><td><b>(1)</b></td><td>functions.LinearRegression '-S 0 -R 1.0E-8 -num-decimal-places 4' -3364580862046573747</td></tr>
+   <tr><td><b>(2)</b></td><td>functions.MultilayerPerceptron '-L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a' -5990607817048210779</td></tr>
+   <tr><td><b>(3)</b></td><td>functions.SimpleLinearRegression '' 1679336022895414137</td></tr>
+   <tr><td><b>(4)</b></td><td>functions.SMOreg '-C 1.0 -N 0 -I \"functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1\" -K \"functions.supportVector.PolyKernel -E 1.0 -C 250007\"' -7149606251113102827</td></tr>
+</table>
+

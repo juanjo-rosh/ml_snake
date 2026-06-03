@@ -1,0 +1,23 @@
+Tester:     weka.experiment.PairedTTester -G 3,4,5 -D 1 -R 2 -S 0.05 -V -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -show-stddev -print-col-names -print-row-names -enum-col-names"
+Analysing:  Root_relative_squared_error
+Datasets:   2
+Resultsets: 4
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       4/11/24, 2:06 PM
+
+
+Dataset                   (1) functions.Lin | (2) functions. (3) functions. (4) functions.
+------------------------------------------------------------------------------------------
+'snake_game-weka.filters.  (5)   7.48(5.33) |   8.42(4.98)     7.49(5.33)     7.44(5.38)  
+'snake_game-weka.filters.  (5)   4.93(4.41) |   5.29(4.18)     4.97(4.38) v   4.95(4.40) v
+------------------------------------------------------------------------------------------
+                                    (v/ /*) |        (0/2/0)        (1/1/0)        (1/1/0)
+
+
+Key:
+(1) functions.LinearRegression '-S 0 -R 1.0E-8 -num-decimal-places 4' -3364580862046573747
+(2) functions.MultilayerPerceptron '-L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a' -5990607817048210779
+(3) functions.SimpleLinearRegression '' 1679336022895414137
+(4) functions.SMOreg '-C 1.0 -N 0 -I \"functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1\" -K \"functions.supportVector.PolyKernel -E 1.0 -C 250007\"' -7149606251113102827
+

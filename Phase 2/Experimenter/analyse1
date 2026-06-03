@@ -1,0 +1,31 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 0 -stddev-width 0 -sig-width 0 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+Analysing:  Percent_correct
+Datasets:   5
+Resultsets: 9
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       10/4/24 18:28
+
+
+Dataset                   (1) rules.Ze | (2) rules (3) trees (4) lazy. (5) lazy. (6) lazy. (7) trees (8) bayes (9) funct
+------------------------------------------------------------------------------------------------------------------------
+'snake_game-weka.filters.(100)   26.99 |   64.10 v   64.11 v   64.12 v   64.12 v   64.05 v   64.13 v   49.18 v   64.07 v
+'snake_game-weka.filters.(100)   26.99 |   49.34 v   49.34 v   49.34 v   49.34 v   49.34 v   49.34 v   49.34 v   49.34 v
+'snake_game-weka.filters.(100)   26.99 |   93.77 v   93.52 v   93.46 v   91.92 v   90.63 v   93.93 v   83.20 v   90.92 v
+'snake_game-weka.filters.(100)   26.99 |   55.66 v   55.66 v   55.66 v   55.66 v   55.66 v   55.66 v   55.66 v   55.66 v
+'snake_game-weka.filters.(100)   26.99 |   97.32 v   97.48 v   97.61 v   97.12 v   96.71 v   97.85 v   83.21 v   91.22 v
+------------------------------------------------------------------------------------------------------------------------
+                               (v/ /*) |   (5/0/0)   (5/0/0)   (5/0/0)   (5/0/0)   (5/0/0)   (5/0/0)   (5/0/0)   (5/0/0)
+
+
+Key:
+(1) rules.ZeroR '' 48055541465867954
+(2) rules.PART '-C 0.25 -M 2' 8121455039782598361
+(3) trees.J48 '-C 0.25 -M 2' -217733168393644444
+(4) lazy.IBk '-K 1 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"' -3080186098777067172
+(5) lazy.IBk '-K 3 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"' -3080186098777067172
+(6) lazy.IBk '-K 5 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"' -3080186098777067172
+(7) trees.RandomForest '-P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' 1116839470751428698
+(8) bayes.NaiveBayes '' 5995231201785697655
+(9) functions.SMO '-C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K \"functions.supportVector.PolyKernel -E 1.0 -C 250007\" -calibrator \"functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4\"' -6585883636378691736
+
